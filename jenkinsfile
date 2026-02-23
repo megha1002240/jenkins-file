@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('pull') {
             steps {
-                git 'https://github.com/megha1002240/node-app-deploy-using-Freestyle-Pipeline-jenkins.git'
+                git 'https://github.com/megha1002240/Myproject.git'
             }
         }
     }
